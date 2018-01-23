@@ -33,7 +33,7 @@
                             <outlet property="delegate" destination="Zgc-bd-9zG" id="R10-CR-Bsl"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="People" id="QZF-Ha-Cg3"/>
+                    <tabBarItem key="tabBarItem" title="People" image="man-user" selectedImage="man-user" id="QZF-Ha-Cg3"/>
                     <connections>
                         <segue destination="ast-uo-4a2" kind="presentation" identifier="peopleSegue" id="knm-L0-WbL"/>
                     </connections>
@@ -132,7 +132,7 @@
                             <outlet property="delegate" destination="vN5-nD-FIT" id="YRM-8R-GYq"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Films" id="lbL-pq-Xc1"/>
+                    <tabBarItem key="tabBarItem" title="Films" image="clapperboard" selectedImage="clapperboard" id="lbL-pq-Xc1"/>
                     <connections>
                         <segue destination="Hny-Hq-mnw" kind="presentation" identifier="filmsSegue" id="NEp-vs-Nuj"/>
                     </connections>
@@ -228,4 +228,8 @@
             <point key="canvasLocation" x="-208" y="170.01499250374815"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="clapperboard" width="64" height="64"/>
+        <image name="man-user" width="64" height="64"/>
+    </resources>
 </document>
